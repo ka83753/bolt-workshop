@@ -1,0 +1,10 @@
+ssh:
+  host-key-check: false
+winrm:
+  ssl: false
+
+pcp:
+  service-url: https://puppet.classroom.puppet.com:8143
+  cacert: /Users/keith/bolt-workshops/bolt-workshop.190919/ca.pem
+  token-file: /Users/keith/bolt-workshops/bolt-workshop.190919/token
+  task-environment: production
